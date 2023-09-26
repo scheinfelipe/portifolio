@@ -7,6 +7,7 @@ class Config(object):
     REMEMBER_COOKIE_SECURE = True
     SCHEDULER_API_ENABLED = True
     THREADED = True
+    
 
 class Prod(Config):
     SECRET_KEY = uuid4().hex
