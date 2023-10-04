@@ -1,186 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../static/css/output.css">
-        <title>MetaMint</title>
-    </head>
-    <style>
-        .black-wave {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-        }
-        .custom-shape-divider-bottom-1695155000 {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: ;
-            transform: rotate(180deg);
-        }
-        
-        .custom-shape-divider-bottom-1695155000 svg {
-            position: relative;
-            display: block;
-            width: calc(139% + 1.3px);
-            height: 229px;
-            transform: rotateY(180deg);
-        }
-        
-        .custom-shape-divider-bottom-1695155000 .shape-fill {
-            fill: #22C55E;
-        }
-    </style>
-    <body>
-        <nav
-            class="sticky px-4 py-3 flex justify-between items-center bg-black">
-            <a
-                class="text-3xl font-bold leading-none text-green-500 py-1 px-2 flex justify-center shadow-lg rounded-3xl bg-gray-900 hover:bg-gray-800 hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer hover:px-3"
-                href="#">
-                <svg class xmlns="http://www.w3.org/2000/svg" width="32"
-                    height="32"
-                    viewBox="0 0 512 512"><path fill="currentColor"
-                        d="M512 169.943c-50.296 12.033-91.653 12.632-127.443 7.49c-22.895 27.979-36.901 56.091-48.568 83.737c48.693-13.64 96.583-31.712 136.124-55.34c-42.697 31.493-92.067 53.554-141.817 69.276c-20.269 54.594-39.842 100.591-77.074 129.566c58.39-20.34 160.245-75.81 258.778-234.729zm-263.637 219.67c80.103-69.55 48.78-188.267 203.384-290.824c-255.72-50.577-368.809 40.644-388.144 54.746c-103.994 75.841-56.637 198.26-24.04 169.647c53.276-46.09 133.296-158.44 286.56-198.737C186.999 162.294 88.86 295.126 63.094 328.528c-45.598 69.997 89.654 148.643 185.27 61.084z" /></svg>
-                <span class="text-xl pl-1"><span class="text-white">Meta</span>Mint</span>
-            </a>
-            <ul
-                class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6 ">
-                <li class="navbar-item"><a href="#"
-                        class="group relative inline-block overflow-hidden rounded-xl border-0 px-8 py-3 hover:text-white focus:outline-none focus:ring">
-                        <span
-                            class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        <span
-                            class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        Courses
-                    </a>
-                </li>
-                <li class="text-green-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                        stroke="currentColor" class="w-4 h-4 current-fill"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </li>
-                <li class="navbar-item"><a href="#"
-                        class="group relative inline-block overflow-hidden rounded-xl border-0 px-8 py-3 hover:text-white focus:outline-none focus:ring">
-                        <span
-                            class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        <span
-                            class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        Bootcamps
-                    </a></li>
-                <li class="text-green-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                        stroke="currentColor" class="w-4 h-4 current-fill"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </li>
-                <li class="navbar-item"><a href="#"
-                        class="group relative inline-block overflow-hidden rounded-xl border-0 px-8 py-3 hover:text-white focus:outline-none focus:ring">
-                        <span
-                            class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        <span
-                            class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        Forum
-                    </a></li>
-                <li class="text-green-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                        stroke="currentColor" class="w-4 h-4 current-fill"
-                        viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                    </svg>
-                </li>
-                <li class="navbar-item"><a href="#"
-                        class="group relative inline-block overflow-hidden rounded-xl border-0 px-8 py-3 hover:text-white focus:outline-none focus:ring">
-                        <span
-                            class="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        <span
-                            class="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-green-500 transition-all duration-500 group-hover:w-full"></span>
-                        <span
-                            class="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-green-500 transition-all duration-500 group-hover:h-full"></span>
-                        Help
-                    </a></li>
-            </ul>
-            <a
-                class="flex justify-center ml-auto lg:mr-3 py-2 px-4 hover:px-5 shadow-lg rounded-3xl bg-gray-900 text-sm font-bold text-green-500 hover:bg-gray-800 hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer"
-                href="#">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" viewBox="0 0 24 24"><path
-                        fill="currentColor"
-                        d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zM13 4v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z" /></svg>
-                <span class="text-base text-white pl-1">Dashboard</span></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="mx-20 mt-8">
+        <nav class="flex items-center bg-gray-900 rounded-full m-2 p-2 ">
+            <button class="relative px-3 flex items-center justify-center w-auto h-12 mr-1 shadow-lg rounded-3xl text-green-500 bg-gray-200 hover:bg-gray-800 transition-all duration-300 ease-linear cursor-pointer hover:px-4">
+                <img src="../static/img/logo.webp" class="h-12" alt="">
+                <h1 class="ml-4">AIOSDJIASDASD</h1>
+            </button>
+            <button class="relative px-3 flex items-center justify-center w-auto h-12 mx-2 shadow-lg rounded-3xl text-white group bg-gray-800 hover:bg-gray-700 transition-all duration-300 ease-linear cursor-pointer hover:px-4">
+                <img src="../static/img/logo.svg" class="h-12" alt="">
+                <h1 class="ml-4 group-hover:text-blue-600">AIOSDJIASDASD</h1>
+            </button>
+            
+            
+            
         </nav>
-        <div class="wave-black h-0">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path
-                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
-                    opacity=".25" class="shape-fill"></path>
-                <path
-                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-                    opacity=".5" class="shape-fill"></path>
-                <path
-                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-                    class="shape-fill"></path>
-            </svg>
-        </div>
-
-        <div
-            class="flex flex-col items-start justify-center h-screen pl-5 bg-[url('/static/img/tree.png')] bg-right bg-no-repeat">
-            <h1 class="text-8xl font-bold text-green-500">Welcome to</h1>
-            <h1 class="inline-flex text-8xl font-bold text-green-500"><svg
-                    class="pr-1 h-28 w-28 flex-no-shrink fill-current"
-                    xmlns="http://www.w3.org/2000/svg" width="32"
-                    height="32"
-                    viewBox="0 0 512 512"><path fill="currentColor"
-                        d="M512 169.943c-50.296 12.033-91.653 12.632-127.443 7.49c-22.895 27.979-36.901 56.091-48.568 83.737c48.693-13.64 96.583-31.712 136.124-55.34c-42.697 31.493-92.067 53.554-141.817 69.276c-20.269 54.594-39.842 100.591-77.074 129.566c58.39-20.34 160.245-75.81 258.778-234.729zm-263.637 219.67c80.103-69.55 48.78-188.267 203.384-290.824c-255.72-50.577-368.809 40.644-388.144 54.746c-103.994 75.841-56.637 198.26-24.04 169.647c53.276-46.09 133.296-158.44 286.56-198.737C186.999 162.294 88.86 295.126 63.094 328.528c-45.598 69.997 89.654 148.643 185.27 61.084z" /></svg>
-                Meta<span>Mint</span>
-            </h1>
-            <p class="text-xl text-gray-500">Dive deep into technology, explore
-                new horizons.</p>
-            <div class="custom-shape-divider-bottom-1695155000">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path
-                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
-                        opacity=".25" class="shape-fill"></path>
-                    <path
-                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-                        opacity=".5" class="shape-fill"></path>
-                    <path
-                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-                        class="shape-fill"></path>
-                </svg>
-            </div>
-        </div>
-
-    </body>
+    </header>
+</body>
 </html>
